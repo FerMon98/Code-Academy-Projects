@@ -17,19 +17,22 @@ h2 {
     text-align: center;
 }
 
-table{
+table {
     color: lightgray;
-    font-size: 20px;
+    font-size: 25px;
     margin-left: auto;
     margin-right: auto;
-    width: 35%;
-    border: 10px, solid, white;
+    width:50%;
+    border: 3px solid white;
 }
 
 th {
     background-color: darkblue;
     font-weight: bolder;
-    font-size: 30px;
+    font-size: 35px;
     text-align: center;
 }
 
+.code {
+    background-color: black;
+}
