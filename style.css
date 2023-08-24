@@ -9,18 +9,36 @@ h1{
     text-align: center;
 }
 
-p{
-    font-size: 40px;
+.bandera{
+    margin-left: 30px;
+     width: 6%;
+     height: 80px;
+}
+
+h2 {
+    margin-left: 37%;
+    margin-right: auto;
+    display: inline-block;
+    font-size: 70px;
     text-align: center;
 }
 
-img {
-    margin-left: 38%;    
+.icecream {
+    margin-left: 37.5%;    
     margin-right: auto;
+    margin-top: 50px;
     width: 25%; 
     border:10px solid lightgreen;
 }
 
-.intention {
-    margin: 50px 0;
+.intention{
+    margin: 100px 0;
+    font-size: 40px;
+    text-align: center;
+}
+
+a {
+    color: cyan;
+    cursor: pointer;
+    text-decoration: underline;
 }
