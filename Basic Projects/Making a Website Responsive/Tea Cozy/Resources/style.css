@@ -1,0 +1,82 @@
+body {
+    font-size: 22px;
+    color: seashell;
+    background-color: black;
+    opacity: 0.9;
+}
+
+.body {
+    display: flex;
+    flex-direction: column;
+}
+
+/*Nav bar*/
+
+header {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 50px;
+}
+
+.logo {
+    margin: 10px 20px;
+    color: white;
+    width: 200px;
+    height: 50px;
+}
+
+nav {
+    display: inline-flex;
+}
+
+a {
+    color: seashell;
+    text-decoration: underline;
+}
+
+/*Mission Section*/
+
+.Mission {
+    margin: 20px 80px 20px 80px;
+    display: flex;
+    align-items: center;
+    width: 1600px;
+    height: 700px;
+}
+
+.mission {
+    display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.missiont {
+    align-items: center;
+    width: 1600px;
+    height: 200px;
+    position: relative;
+    z-index: 2;
+}
+
+.backgroundi{
+    width: 1600px;
+    height: 700px;
+    position: relative;
+    z-index: 1;
+}
+
+/*Products Section*/
+.Products{
+    display: flex;
+    flex-direction: column;
+}
+
+.offer {
+    grid-template-columns: 50px;
+    grid-template-rows: 50px 50px;
+}
+
+.tom-pic{
+    width: 20px;
+    height: 20px;
+}
